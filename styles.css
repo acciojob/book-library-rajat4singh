@@ -1,17 +1,25 @@
 
-
-
-
-
 *{
 	box-sizing: border-box;
 	
 }
 body{
 	background-color:#f8f8f8;
+	
 }
+#lib{
+		font-weight:600;
+	justify-content: center;
+	align-items: center;
+	}
 .book-library{
 	background-color:#ffffff;
+	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.book{
 }
 
 .book>h2{
@@ -19,4 +27,5 @@ body{
 }
 .book>button{
 	background-color: #2ecc71;
+	width: 90%;
 }
