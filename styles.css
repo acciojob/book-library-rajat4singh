@@ -1,31 +1,37 @@
-
 *{
-	box-sizing: border-box;
-	
+	margin:0;
+	padding:0;
 }
 body{
 	background-color:#f8f8f8;
-	
+	display:flex;
+	justify-content:center;
 }
-#lib{
-		font-weight:600;
-	justify-content: center;
-	align-items: center;
-	}
 .book-library{
+	margin:20px 0;
 	background-color:#ffffff;
-	
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	width:400px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
-.book{
+.book-library h1{
+	text-align:center;
+	padding:10px;
+	background-color:#f8f8f8;	
 }
-
-.book>h2{
-	color: #777777;
+.book-library .book img{
+	height:200px;
 }
-.book>button{
-	background-color: #2ecc71;
-	width: 90%;
+.book-library .book{
+	margin-top:10px;
+	background-color:#f8f8f8;
+	padding:10px;
+}
+.book-library .book .book-price{
+	background-color:#2ecc71;
+	text-align:center;
+	padding:10px;
+	color:#fff;
+}
+.book p{
+	color:#777777;
 }
